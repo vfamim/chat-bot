@@ -8,10 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 pandas = "^2.1.1"
+sqlalchemy = "^2.0.21"
+psycopg2 = "^2.9.7"
 
 
 [tool.poetry.group.dev.dependencies]
 pgcli = "^3.5.0"
+jupyterlab = "^4.0.6"
 
 [build-system]
 requires = ["poetry-core"]

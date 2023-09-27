@@ -10,6 +10,7 @@ python = ">=3.9,<3.13"
 pandas = "^2.1.1"
 sqlalchemy = "^2.0.21"
 psycopg2 = "^2.9.7"
+psycopg2-binary = "^2.9.7"
 
 
 [tool.poetry.group.dev.dependencies]

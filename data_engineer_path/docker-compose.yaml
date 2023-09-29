@@ -5,7 +5,7 @@ services:
     environment:
       - POSTGRES_USER=vfamim
       - POSTGRES_PASSWORD=poli2103
-      - POSTGRES_DB=ny_taxy
+      - POSTGRES_DB=ny_taxi
     volumes:
       - "./data/external/ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
     ports:

@@ -2569,6 +2569,17 @@ files = [
 ]
 
 [[package]]
+name = "pip-chill"
+version = "1.0.3"
+description = "Like `pip freeze` but lists only the packages that are not dependencies of installed packages."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pip-chill-1.0.3.tar.gz", hash = "sha256:42c3b888efde0b3dc5d5307b92fae5fb67695dd9c29c9d31891b9505dd8b735a"},
+    {file = "pip_chill-1.0.3-py2.py3-none-any.whl", hash = "sha256:452a38edbcdfc333301c438c26ba00a0762d2034fe26a235d8587134453ccdb1"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "3.10.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -4283,4 +4294,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "fe94b9f9bb844f4f6549d35e7d0b3f8f2ad5285eebcd8cffaf79adc684336167"
+content-hash = "0b2a3b1d13a995aa7047f9c6e1c1c687e975a7de3c8a4afed8c3e3c7c667d62e"

@@ -50,8 +50,8 @@ def ingest_data(user, password, host, port, db, table_name, url):
 
 
 if __name__ == '__main__':
-    user = 'vfamim'
-    password = 'poli2103'
+    user = 'root'
+    password = 'root'
     host = 'localhost'
     port = '5433'
     db = 'ny_taxi'

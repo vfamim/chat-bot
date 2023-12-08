@@ -3,8 +3,8 @@ services:
   pgdatabase:
     image: postgres:13
     environment:
-      - POSTGRES_USER=vfamim
-      - POSTGRES_PASSWORD=poli2103
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
       - POSTGRES_DB=ny_taxi
     volumes:
       - "./data/external/ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
